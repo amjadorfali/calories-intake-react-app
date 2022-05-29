@@ -1,0 +1,9 @@
+mutation adminCreateFood($createFoodInput: CreateFoodInput!, $userId: String!){
+    adminCreateFood(createFoodInput: $createFoodInput, userId: $userId){
+        calorieValue
+        dateTaken
+        id
+        name
+        price
+    }
+}

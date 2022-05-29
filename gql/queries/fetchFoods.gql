@@ -1,0 +1,9 @@
+query fetchFoods{
+    fetchFoods{
+        calorieValue
+        dateTaken
+        id
+        name
+        price
+    }
+}

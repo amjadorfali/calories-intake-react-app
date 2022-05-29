@@ -1,0 +1,17 @@
+mutation updateDailyLimit($dailyLimit: Float!){
+    updateDailyLimit(dailyLimit: $dailyLimit){
+        dailyLimit
+        foods{
+            calorieValue
+            dateTaken
+            id
+            name
+            price
+        }
+        id
+        password
+        registrationNumber
+        role
+        userName
+    }
+}

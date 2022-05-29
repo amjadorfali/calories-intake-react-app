@@ -1,0 +1,9 @@
+mutation updateFood($updateFoodInput: UpdateFoodInput!){
+    updateFood(updateFoodInput: $updateFoodInput){
+        calorieValue
+        dateTaken
+        id
+        name
+        price
+    }
+}

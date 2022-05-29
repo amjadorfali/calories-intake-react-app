@@ -1,0 +1,17 @@
+query getUsers{
+    getUsers{
+        dailyLimit
+        foods{
+            calorieValue
+            dateTaken
+            id
+            name
+            price
+        }
+        id
+        password
+        registrationNumber
+        role
+        userName
+    }
+}

@@ -1,0 +1,9 @@
+mutation addFood($createFoodInput: CreateFoodInput!){
+    addFood(createFoodInput: $createFoodInput){
+        calorieValue
+        dateTaken
+        id
+        name
+        price
+    }
+}
